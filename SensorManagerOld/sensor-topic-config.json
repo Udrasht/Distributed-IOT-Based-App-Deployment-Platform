@@ -1,0 +1,23 @@
+{
+    "nodes-partition": {
+        "h105": 0,
+        "h205": 1,
+        "obh": 2
+    },
+    "sensor_types": [
+        "temperature",
+        "humidity",
+        "pressure",
+        "tds"
+    ],
+    "kafka_topics": {
+        "temperature": "temperature-topic",
+        "humidity": "humidity-topic",
+        "pressure": "pressure-topic",
+        "tds": "tds-topic"
+    },
+    "n_sensors": 4,
+    "n_nodes": 3,
+    "n_partitions": 3,
+    "n_kafka_topics": 4
+}

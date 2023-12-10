@@ -1,0 +1,15 @@
+!SESSION 2023-04-08 16:18:29.296 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.osgi 4 0 2023-04-08 16:18:29.956
+!MESSAGE Bundle reference:file:pax-confman-propsloader-0.2.3.jar@1:start not found.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2023-04-08 16:18:48.496
+!MESSAGE Could not bind a reference of component home.monitoring.application. The reference is: Reference[name = AuthenticationService, interface = org.eclipse.om2m.sdt.home.monitoring.authentication.service.AuthenticationService, policy = dynamic, cardinality = 0..n, target = null, bind = bindAuthenticationService, unbind = unbindAuthenticationService]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2023-04-08 16:18:48.566
+!MESSAGE Could not bind a reference of component sdt.ipe. The reference is: Reference[name = Device, interface = org.eclipse.om2m.sdt.Device, policy = dynamic, cardinality = 0..n, target = null, bind = setDevice, unbind = unsetDevice]

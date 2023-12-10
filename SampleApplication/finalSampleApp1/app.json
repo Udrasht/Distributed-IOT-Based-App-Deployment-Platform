@@ -1,0 +1,41 @@
+{
+    "applicationName": "finalSampleApp1",
+    "sensorTypes": {
+        "SR-AQ": [
+            "Temperature",
+            "CO2",
+            "Relative Humidity"
+        ],
+        "SR-OC": [
+            "Temperature"
+        ],
+        "SR-AC": [
+            "Gas Total Power"
+        ]
+    },
+    "location": {
+        "SR-AQ": [
+            "KH00-00",
+            "KH00-01"
+        ],
+        "SR-OC": [
+            "GW-KH00-00",
+            "GW-KH00-01"
+        ],
+        "SR-AC": [
+            "KH00-00"
+        ]
+    },
+    "userEmail": "hkashyap0809@gmail.com",
+    "applicationType": [
+        "SR-AQ",
+        "SR-OC",
+        "SR-AC"
+    ],
+    "applicationTypeInstance": {
+        "SR-AQ": 2,
+        "SR-OC": 2,
+        "SR-AC": 1
+    },
+    "applicationDescription": "finalSampleApp1"
+}

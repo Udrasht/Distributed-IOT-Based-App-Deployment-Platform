@@ -1,0 +1,55 @@
+{
+    "fetch_node_data": {
+        "api_name": "node_data",
+        "params": {
+            "node_name": "<enter node name>",
+            "last_n": 3
+        }
+    },
+    "fetch_sensor_data": {
+        "api_name": "sensor_data",
+        "params": {
+            "node_name": "AQ",
+            "sensor_type": "<enter valid sensor>",
+            "last_n": 1
+        }
+    },
+    "fetch_node_average": {
+        "api_name": "node_average",
+        "params": {
+            "node_name": "AQ-EF23-23",
+            "last_n": 3
+        }
+    },
+    "fetch_node_sensor_average": {
+        "api_name": "node_sensor_average",
+        "params": {
+            "node_name": "<enter node name>",
+            "sensor_type": "<enter valid sensor>",
+            "last_n": 3
+        }
+    },
+    "activate_actuator": {
+        "api_name": "activate_actuator",
+        "params": {
+            "node_name": "<enter node name>",
+            "activator_type": "<enter actuator>"
+        }
+    },
+    "trigger_email": {
+        "api_name": "trigger_email",
+        "params": {
+            "receiver-email": "<enter receiver email>",
+            "email-body": "<email_body>"
+        }
+    },
+    "threshold_breach_notification": {
+        "api_name": "threshold_breach_email",
+        "params": {
+            "node_name": "<enter node name>",
+            "sensor_type": "<enter valid sensor>",
+            "threshold_value ": "<enter threshold value>",
+            "email-body": "<enter receiver email>"
+        }
+    }
+}

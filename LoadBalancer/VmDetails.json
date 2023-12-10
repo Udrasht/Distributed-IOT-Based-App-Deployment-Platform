@@ -1,0 +1,31 @@
+[
+    {
+        "vm_name": "VM1",
+        "vm_ip": "20.21.102.175",
+        "vm_username": "azureuser",
+        "vm_key_path": "./VM-keys/VM1_key.cer",
+        "vm_service_path": "/home/azureuser/LoadBalancerTesting",
+        "latestAvailablePort": 49152,
+        "hosted_apps": []
+    },
+    {
+        "vm_name": "VM2",
+        "vm_ip": "20.173.88.38",
+        "vm_username": "azureuser",
+        "vm_key_path": "./VM-keys/VM2_key.cer",
+        "vm_service_path": "/home/azureuser/LoadBalancerTesting",
+        "latestAvailablePort": 49152,
+        "hosted_apps": [
+        ]
+    },
+    {
+        "vm_name": "VM3",
+        "vm_ip": "20.173.88.141",
+        "vm_username": "azureuser",
+        "vm_key_path": "./VM-keys/VM3_key.cer",
+        "vm_service_path": "/home/azureuser/LoadBalancerTesting",
+        "latestAvailablePort": 49152,
+        "hosted_apps": [
+        ]
+    }
+]

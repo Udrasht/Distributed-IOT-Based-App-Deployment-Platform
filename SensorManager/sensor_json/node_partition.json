@@ -1,0 +1,1372 @@
+{
+    "AQ-MG00-00": {
+        "topic-name": "AQ-topic",
+        "partition-number": 0,
+        "application-entity": "AQ"
+    },
+    "AQ-BN00-00": {
+        "topic-name": "AQ-topic",
+        "partition-number": 1,
+        "application-entity": "AQ"
+    },
+    "AQ-KN00-00": {
+        "topic-name": "AQ-topic",
+        "partition-number": 2,
+        "application-entity": "AQ"
+    },
+    "AQ-SN00-00": {
+        "topic-name": "AQ-topic",
+        "partition-number": 3,
+        "application-entity": "AQ"
+    },
+    "AQ-VN90-00": {
+        "topic-name": "AQ-topic",
+        "partition-number": 4,
+        "application-entity": "AQ"
+    },
+    "AQ-KH00-00": {
+        "topic-name": "AQ-topic",
+        "partition-number": 5,
+        "application-entity": "AQ"
+    },
+    "AQ-AN00-00": {
+        "topic-name": "AQ-topic",
+        "partition-number": 6,
+        "application-entity": "AQ"
+    },
+    "AQ-PH03-00": {
+        "topic-name": "AQ-topic",
+        "partition-number": 7,
+        "application-entity": "AQ"
+    },
+    "AQ-PL00-00": {
+        "topic-name": "AQ-topic",
+        "partition-number": 8,
+        "application-entity": "AQ"
+    },
+    "AQ-FG00-00": {
+        "topic-name": "AQ-topic",
+        "partition-number": 9,
+        "application-entity": "AQ"
+    },
+    "AQ-AD95-00": {
+        "topic-name": "AQ-topic",
+        "partition-number": 10,
+        "application-entity": "AQ"
+    },
+    "WM-WD-VN00-00": {
+        "topic-name": "WM-WD-topic",
+        "partition-number": 0,
+        "application-entity": "WM-WD"
+    },
+    "WM-WD-VN90-00": {
+        "topic-name": "WM-WD-topic",
+        "partition-number": 1,
+        "application-entity": "WM-WD"
+    },
+    "WM-WD-VN01-00": {
+        "topic-name": "WM-WD-topic",
+        "partition-number": 2,
+        "application-entity": "WM-WD"
+    },
+    "WM-WD-VN01-01": {
+        "topic-name": "WM-WD-topic",
+        "partition-number": 3,
+        "application-entity": "WM-WD"
+    },
+    "WM-WD-PH01-00": {
+        "topic-name": "WM-WD-topic",
+        "partition-number": 4,
+        "application-entity": "WM-WD"
+    },
+    "WM-WD-BN04-00": {
+        "topic-name": "WM-WD-topic",
+        "partition-number": 5,
+        "application-entity": "WM-WD"
+    },
+    "WM-WD-AD98-00": {
+        "topic-name": "WM-WD-topic",
+        "partition-number": 6,
+        "application-entity": "WM-WD"
+    },
+    "WM-WD-PL00-00": {
+        "topic-name": "WM-WD-topic",
+        "partition-number": 7,
+        "application-entity": "WM-WD"
+    },
+    "WM-WD-PH02-00": {
+        "topic-name": "WM-WD-topic",
+        "partition-number": 8,
+        "application-entity": "WM-WD"
+    },
+    "WM-WD-PH03-00": {
+        "topic-name": "WM-WD-topic",
+        "partition-number": 9,
+        "application-entity": "WM-WD"
+    },
+    "WM-WD-KN00-00": {
+        "topic-name": "WM-WD-topic",
+        "partition-number": 10,
+        "application-entity": "WM-WD"
+    },
+    "WM-WD-BN01-00": {
+        "topic-name": "WM-WD-topic",
+        "partition-number": 11,
+        "application-entity": "WM-WD"
+    },
+    "WM-WD-KH95-00": {
+        "topic-name": "WM-WD-topic",
+        "partition-number": 12,
+        "application-entity": "WM-WD"
+    },
+    "WM-WD-KH01-00": {
+        "topic-name": "WM-WD-topic",
+        "partition-number": 13,
+        "application-entity": "WM-WD"
+    },
+    "WM-WD-KH03-00": {
+        "topic-name": "WM-WD-topic",
+        "partition-number": 14,
+        "application-entity": "WM-WD"
+    },
+    "WM-WD-NI00-00": {
+        "topic-name": "WM-WD-topic",
+        "partition-number": 15,
+        "application-entity": "WM-WD"
+    },
+    "WM-WD-BN00-00": {
+        "topic-name": "WM-WD-topic",
+        "partition-number": 16,
+        "application-entity": "WM-WD"
+    },
+    "WM-WD-PL04-01": {
+        "topic-name": "WM-WD-topic",
+        "partition-number": 17,
+        "application-entity": "WM-WD"
+    },
+    "WM-WD-BK04-00": {
+        "topic-name": "WM-WD-topic",
+        "partition-number": 18,
+        "application-entity": "WM-WD"
+    },
+    "WM-WD-PL04-00": {
+        "topic-name": "WM-WD-topic",
+        "partition-number": 19,
+        "application-entity": "WM-WD"
+    },
+    "WM-WF-PH01-00": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 0,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-PH03-00": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 1,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-PH03-01": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 2,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-PH03-02": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 3,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-PH03-03": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 4,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-VN01-00": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 5,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-PH02-70": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 6,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-PH03-70": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 7,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-KB04-70": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 8,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-KB04-71": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 9,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-KB04-72": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 10,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-KB04-73": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 11,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-PL00-70": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 12,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-PL00-71": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 13,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-PR00-70": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 14,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-PH04-70": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 15,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-PH04-71": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 16,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-BB04-70": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 17,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-BB04-71": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 18,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-VN04-70": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 19,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-VN04-71": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 20,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-PR04-70": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 21,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-PR04-71": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 22,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-PR04-72": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 23,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-PH04-50": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 24,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-PR00-50": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 25,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-PL00-50": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 26,
+        "application-entity": "WM-WF"
+    },
+    "WM-WF-BB04-50": {
+        "topic-name": "WM-WF-topic",
+        "partition-number": 27,
+        "application-entity": "WM-WF"
+    },
+    "WE-VN04-00": {
+        "topic-name": "WE-topic",
+        "partition-number": 0,
+        "application-entity": "WE"
+    },
+    "WE-BN04-00": {
+        "topic-name": "WE-topic",
+        "partition-number": 1,
+        "application-entity": "WE"
+    },
+    "WE-GS04-00": {
+        "topic-name": "WE-topic",
+        "partition-number": 2,
+        "application-entity": "WE"
+    },
+    "SR-OC-GW-KH00-00": {
+        "topic-name": "SR-OC-topic",
+        "partition-number": 0,
+        "application-entity": "SR-OC"
+    },
+    "SR-OC-GW-KH00-01": {
+        "topic-name": "SR-OC-topic",
+        "partition-number": 1,
+        "application-entity": "SR-OC"
+    },
+    "SR-OC-GW-KH01-00": {
+        "topic-name": "SR-OC-topic",
+        "partition-number": 2,
+        "application-entity": "SR-OC"
+    },
+    "SR-OC-GW-KH03-00": {
+        "topic-name": "SR-OC-topic",
+        "partition-number": 3,
+        "application-entity": "SR-OC"
+    },
+    "SR-OC-GW-KH03-01": {
+        "topic-name": "SR-OC-topic",
+        "partition-number": 4,
+        "application-entity": "SR-OC"
+    },
+    "SR-OC-GW-KH03-02": {
+        "topic-name": "SR-OC-topic",
+        "partition-number": 5,
+        "application-entity": "SR-OC"
+    },
+    "SR-OC-GW-KH95-00": {
+        "topic-name": "SR-OC-topic",
+        "partition-number": 6,
+        "application-entity": "SR-OC"
+    },
+    "SR-OC-GW-KH95-01": {
+        "topic-name": "SR-OC-topic",
+        "partition-number": 7,
+        "application-entity": "SR-OC"
+    },
+    "SR-EM-KH04-00": {
+        "topic-name": "SR-EM-topic",
+        "partition-number": 0,
+        "application-entity": "SR-EM"
+    },
+    "SR-EM-KH04-01": {
+        "topic-name": "SR-EM-topic",
+        "partition-number": 1,
+        "application-entity": "SR-EM"
+    },
+    "SR-EM-KH04-02": {
+        "topic-name": "SR-EM-topic",
+        "partition-number": 2,
+        "application-entity": "SR-EM"
+    },
+    "SR-AQ-KH00-00": {
+        "topic-name": "SR-AQ-topic",
+        "partition-number": 0,
+        "application-entity": "SR-AQ"
+    },
+    "SR-AQ-KH00-01": {
+        "topic-name": "SR-AQ-topic",
+        "partition-number": 1,
+        "application-entity": "SR-AQ"
+    },
+    "SR-AQ-KH00-02": {
+        "topic-name": "SR-AQ-topic",
+        "partition-number": 2,
+        "application-entity": "SR-AQ"
+    },
+    "SR-AQ-KH00-03": {
+        "topic-name": "SR-AQ-topic",
+        "partition-number": 3,
+        "application-entity": "SR-AQ"
+    },
+    "SR-AQ-KH01-00": {
+        "topic-name": "SR-AQ-topic",
+        "partition-number": 4,
+        "application-entity": "SR-AQ"
+    },
+    "SR-AQ-KH01-01": {
+        "topic-name": "SR-AQ-topic",
+        "partition-number": 5,
+        "application-entity": "SR-AQ"
+    },
+    "SR-AQ-KH01-02": {
+        "topic-name": "SR-AQ-topic",
+        "partition-number": 6,
+        "application-entity": "SR-AQ"
+    },
+    "SR-AQ-KH01-03": {
+        "topic-name": "SR-AQ-topic",
+        "partition-number": 7,
+        "application-entity": "SR-AQ"
+    },
+    "SR-AQ-KH03-00": {
+        "topic-name": "SR-AQ-topic",
+        "partition-number": 8,
+        "application-entity": "SR-AQ"
+    },
+    "SR-AQ-KH03-01": {
+        "topic-name": "SR-AQ-topic",
+        "partition-number": 9,
+        "application-entity": "SR-AQ"
+    },
+    "SR-AQ-KH03-02": {
+        "topic-name": "SR-AQ-topic",
+        "partition-number": 10,
+        "application-entity": "SR-AQ"
+    },
+    "SR-AQ-KH03-03": {
+        "topic-name": "SR-AQ-topic",
+        "partition-number": 11,
+        "application-entity": "SR-AQ"
+    },
+    "SR-AQ-KH95-00": {
+        "topic-name": "SR-AQ-topic",
+        "partition-number": 12,
+        "application-entity": "SR-AQ"
+    },
+    "SR-AQ-VN01-00": {
+        "topic-name": "SR-AQ-topic",
+        "partition-number": 13,
+        "application-entity": "SR-AQ"
+    },
+    "SR-AQ-VN01-01": {
+        "topic-name": "SR-AQ-topic",
+        "partition-number": 14,
+        "application-entity": "SR-AQ"
+    },
+    "SR-AQ-VN01-02": {
+        "topic-name": "SR-AQ-topic",
+        "partition-number": 15,
+        "application-entity": "SR-AQ"
+    },
+    "SR-AQ-KH95-01": {
+        "topic-name": "SR-AQ-topic",
+        "partition-number": 16,
+        "application-entity": "SR-AQ"
+    },
+    "SR-AQ-KH95-02": {
+        "topic-name": "SR-AQ-topic",
+        "partition-number": 17,
+        "application-entity": "SR-AQ"
+    },
+    "SR-AC-KH00-00": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 0,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH00-01": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 1,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH00-02": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 2,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH00-03": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 3,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH00-04": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 4,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH00-05": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 5,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH00-06": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 6,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH00-07": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 7,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH00-08": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 8,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH01-00": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 9,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH01-01": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 10,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH01-02": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 11,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH01-03": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 12,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH01-04": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 13,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH01-05": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 14,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH01-06": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 15,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH01-07": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 16,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH01-08": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 17,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH01-09": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 18,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH01-10": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 19,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH01-11": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 20,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH01-12": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 21,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH01-13": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 22,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH01-14": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 23,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH01-15": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 24,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH01-16": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 25,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH01-17": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 26,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH01-18": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 27,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH01-19": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 28,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-00": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 29,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-01": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 30,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-02": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 31,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-03": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 32,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-04": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 33,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-05": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 34,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-06": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 35,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-07": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 36,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-08": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 37,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-09": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 38,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-10": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 39,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-11": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 40,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-12": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 41,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-13": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 42,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-14": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 43,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-15": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 44,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-16": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 45,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-17": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 46,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-18": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 47,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-19": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 48,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-20": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 49,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-21": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 50,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-22": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 51,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-23": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 52,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH02-24": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 53,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH03-00": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 54,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH03-01": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 55,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH03-02": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 56,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH03-03": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 57,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH03-04": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 58,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH03-05": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 59,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH03-06": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 60,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH03-07": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 61,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH03-08": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 62,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH03-09": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 63,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH03-10": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 64,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH03-11": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 65,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH03-12": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 66,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH03-13": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 67,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH03-14": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 68,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH03-15": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 69,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH03-16": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 70,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH03-17": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 71,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH03-18": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 72,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH03-19": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 73,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH03-20": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 74,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH03-21": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 75,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH95-00": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 76,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH95-01": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 77,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH95-02": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 78,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH95-03": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 79,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH95-04": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 80,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH00-09": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 81,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH00-10": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 82,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH00-11": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 83,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH00-12": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 84,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH00-13": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 85,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH00-14": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 86,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH00-15": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 87,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH00-16": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 88,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH00-17": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 89,
+        "application-entity": "SR-AC"
+    },
+    "SR-AC-KH00-18": {
+        "topic-name": "SR-AC-topic",
+        "partition-number": 90,
+        "application-entity": "SR-AC"
+    },
+    "CM-MG00-00": {
+        "topic-name": "CM-topic",
+        "partition-number": 0,
+        "application-entity": "CM"
+    },
+    "CM-VN90-00": {
+        "topic-name": "CM-topic",
+        "partition-number": 1,
+        "application-entity": "CM"
+    },
+    "CM-MG99-00": {
+        "topic-name": "CM-topic",
+        "partition-number": 2,
+        "application-entity": "CM"
+    },
+    "CM-VN90-01": {
+        "topic-name": "CM-topic",
+        "partition-number": 3,
+        "application-entity": "CM"
+    },
+    "CM-VN91-01": {
+        "topic-name": "CM-topic",
+        "partition-number": 4,
+        "application-entity": "CM"
+    },
+    "CM-VN91-00": {
+        "topic-name": "CM-topic",
+        "partition-number": 5,
+        "application-entity": "CM"
+    },
+    "SL-VN03-00": {
+        "topic-name": "SL-topic",
+        "partition-number": 0,
+        "application-entity": "SL"
+    },
+    "SL-VN02-00": {
+        "topic-name": "SL-topic",
+        "partition-number": 1,
+        "application-entity": "SL"
+    },
+    "SL-VN02-01": {
+        "topic-name": "SL-topic",
+        "partition-number": 2,
+        "application-entity": "SL"
+    },
+    "SL-VN95-00": {
+        "topic-name": "SL-topic",
+        "partition-number": 3,
+        "application-entity": "SL"
+    },
+    "SL-NI03-00": {
+        "topic-name": "SL-topic",
+        "partition-number": 4,
+        "application-entity": "SL"
+    },
+    "SL-NI03-01": {
+        "topic-name": "SL-topic",
+        "partition-number": 5,
+        "application-entity": "SL"
+    },
+    "EM-NC-VN01-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 0,
+        "application-entity": "EM"
+    },
+    "EM-NC-VN01-01": {
+        "topic-name": "EM-topic",
+        "partition-number": 1,
+        "application-entity": "EM"
+    },
+    "EM-NC-VN92-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 2,
+        "application-entity": "EM"
+    },
+    "EM-NC-VN93-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 3,
+        "application-entity": "EM"
+    },
+    "EM-NC-VN95-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 4,
+        "application-entity": "EM"
+    },
+    "EM-NC-BN01-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 5,
+        "application-entity": "EM"
+    },
+    "EM-NC-NI93-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 6,
+        "application-entity": "EM"
+    },
+    "EM-NC-SM00-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 7,
+        "application-entity": "EM"
+    },
+    "EM-NC-NM00-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 8,
+        "application-entity": "EM"
+    },
+    "EM-NC-PL92-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 9,
+        "application-entity": "EM"
+    },
+    "EM-NC-PL92-01": {
+        "topic-name": "EM-topic",
+        "partition-number": 10,
+        "application-entity": "EM"
+    },
+    "EM-NC-PL98-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 11,
+        "application-entity": "EM"
+    },
+    "EM-CR-TG00-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 12,
+        "application-entity": "EM"
+    },
+    "EM-CR-TG00-01": {
+        "topic-name": "EM-topic",
+        "partition-number": 13,
+        "application-entity": "EM"
+    },
+    "EM-NC-DC00-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 14,
+        "application-entity": "EM"
+    },
+    "EM-NC-SC00-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 15,
+        "application-entity": "EM"
+    },
+    "EM-NC-SS00-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 16,
+        "application-entity": "EM"
+    },
+    "EM-NC-DH00-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 17,
+        "application-entity": "EM"
+    },
+    "EM-NC-YM00-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 18,
+        "application-entity": "EM"
+    },
+    "EM-NC-PH04-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 19,
+        "application-entity": "EM"
+    },
+    "EM-NC-KN98-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 20,
+        "application-entity": "EM"
+    },
+    "EM-CR-KN95-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 21,
+        "application-entity": "EM"
+    },
+    "EM-CR-KN95-01": {
+        "topic-name": "EM-topic",
+        "partition-number": 22,
+        "application-entity": "EM"
+    },
+    "EM-CR-PR01-01": {
+        "topic-name": "EM-topic",
+        "partition-number": 23,
+        "application-entity": "EM"
+    },
+    "EM-NC-SN00-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 24,
+        "application-entity": "EM"
+    },
+    "EM-NC-PH01-03": {
+        "topic-name": "EM-topic",
+        "partition-number": 25,
+        "application-entity": "EM"
+    },
+    "EM-NC-AR00-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 26,
+        "application-entity": "EM"
+    },
+    "EM-NC-VN95-01": {
+        "topic-name": "EM-topic",
+        "partition-number": 27,
+        "application-entity": "EM"
+    },
+    "EM-NC-VN01-02": {
+        "topic-name": "EM-topic",
+        "partition-number": 28,
+        "application-entity": "EM"
+    },
+    "EM-NC-VN03-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 29,
+        "application-entity": "EM"
+    },
+    "EM-NC-VN95-02": {
+        "topic-name": "EM-topic",
+        "partition-number": 30,
+        "application-entity": "EM"
+    },
+    "EM-NC-BD01-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 31,
+        "application-entity": "EM"
+    },
+    "EM-NC-AN01-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 32,
+        "application-entity": "EM"
+    },
+    "EM-NC-PH01-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 33,
+        "application-entity": "EM"
+    },
+    "EM-NC-PH02-01": {
+        "topic-name": "EM-topic",
+        "partition-number": 34,
+        "application-entity": "EM"
+    },
+    "EM-NC-PH03-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 35,
+        "application-entity": "EM"
+    },
+    "EM-NC-FQ93-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 36,
+        "application-entity": "EM"
+    },
+    "EM-CR-VN01-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 37,
+        "application-entity": "EM"
+    },
+    "EM-CR-VN02-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 38,
+        "application-entity": "EM"
+    },
+    "EM-CR-VN03-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 39,
+        "application-entity": "EM"
+    },
+    "EM-CR-SB00-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 40,
+        "application-entity": "EM"
+    },
+    "EM-CR-SB00-01": {
+        "topic-name": "EM-topic",
+        "partition-number": 41,
+        "application-entity": "EM"
+    },
+    "EM-CR-NI02-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 42,
+        "application-entity": "EM"
+    },
+    "EM-CR-NI02-01": {
+        "topic-name": "EM-topic",
+        "partition-number": 43,
+        "application-entity": "EM"
+    },
+    "EM-CR-NI02-02": {
+        "topic-name": "EM-topic",
+        "partition-number": 44,
+        "application-entity": "EM"
+    },
+    "EM-CR-BC00-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 45,
+        "application-entity": "EM"
+    },
+    "EM-CR-PL01-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 46,
+        "application-entity": "EM"
+    },
+    "EM-CR-PR01-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 47,
+        "application-entity": "EM"
+    },
+    "EM-CR-BN01-00": {
+        "topic-name": "EM-topic",
+        "partition-number": 48,
+        "application-entity": "EM"
+    },
+    "EM-CR-BN01-01": {
+        "topic-name": "EM-topic",
+        "partition-number": 49,
+        "application-entity": "EM"
+    },
+    "WN-LP01-03": {
+        "topic-name": "WN-topic",
+        "partition-number": 0,
+        "application-entity": "WN"
+    },
+    "WN-LP02-02": {
+        "topic-name": "WN-topic",
+        "partition-number": 1,
+        "application-entity": "WN"
+    },
+    "WN-LP03-02": {
+        "topic-name": "WN-topic",
+        "partition-number": 2,
+        "application-entity": "WN"
+    },
+    "WN-LP04-02": {
+        "topic-name": "WN-topic",
+        "partition-number": 3,
+        "application-entity": "WN"
+    },
+    "WN-LP05-02": {
+        "topic-name": "WN-topic",
+        "partition-number": 4,
+        "application-entity": "WN"
+    },
+    "WN-LP06-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 5,
+        "application-entity": "WN"
+    },
+    "WN-LP07-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 6,
+        "application-entity": "WN"
+    },
+    "WN-LP08-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 7,
+        "application-entity": "WN"
+    },
+    "WN-LP09-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 8,
+        "application-entity": "WN"
+    },
+    "WN-LP10-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 9,
+        "application-entity": "WN"
+    },
+    "WN-LP11-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 10,
+        "application-entity": "WN"
+    },
+    "WN-LP12-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 11,
+        "application-entity": "WN"
+    },
+    "WN-LP13-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 12,
+        "application-entity": "WN"
+    },
+    "WN-LP14-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 13,
+        "application-entity": "WN"
+    },
+    "WN-LP15-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 14,
+        "application-entity": "WN"
+    },
+    "WN-LP16-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 15,
+        "application-entity": "WN"
+    },
+    "WN-LP17-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 16,
+        "application-entity": "WN"
+    },
+    "WN-LP18-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 17,
+        "application-entity": "WN"
+    },
+    "WN-LP19-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 18,
+        "application-entity": "WN"
+    },
+    "WN-LP20-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 19,
+        "application-entity": "WN"
+    },
+    "WN-LP21-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 20,
+        "application-entity": "WN"
+    },
+    "WN-LP22-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 21,
+        "application-entity": "WN"
+    },
+    "WN-LP23-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 22,
+        "application-entity": "WN"
+    },
+    "WN-LP24-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 23,
+        "application-entity": "WN"
+    },
+    "WN-LP25-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 24,
+        "application-entity": "WN"
+    },
+    "WN-LP26-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 25,
+        "application-entity": "WN"
+    },
+    "WN-LP27-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 26,
+        "application-entity": "WN"
+    },
+    "WN-LP28-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 27,
+        "application-entity": "WN"
+    },
+    "WN-LP29-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 28,
+        "application-entity": "WN"
+    },
+    "WN-LP30-01": {
+        "topic-name": "WN-topic",
+        "partition-number": 29,
+        "application-entity": "WN"
+    }
+}

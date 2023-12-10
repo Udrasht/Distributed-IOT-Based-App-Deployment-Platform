@@ -1,0 +1,10 @@
+.env
+.idea
+Authenticator/__pycache__
+Authenticator/users/__pycache__
+Authenticator/static/uploads/*
+Authenticator/utils/__pycache__
+frontend/node_modules
+frontend/package-lock.json
+logs/
+/logs/

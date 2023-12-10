@@ -1,0 +1,11 @@
+{
+    "app_name": "<enter app name>",
+    "sensors": [],
+    "files": [
+        "app.py",
+        "requirements.txt",
+        "index.html"
+    ],
+    "workflow_used": [],
+    "entry_point": "app.py"
+}

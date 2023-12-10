@@ -1,0 +1,122 @@
+[
+    {
+        "folder_name": "ApplicationManager",
+        "service_name": "application_manager",
+        "docker_file_name": "application_manager_docker_file",
+        "image_file_name": "application_manager_img",
+        "container_name": "application_manager_container",
+        "service_start_shell_file": "application_manager_start.sh",
+        "service_end_shell_file": "application_manager_end.sh",
+        "host_port": "8010",
+        "container_port": "8050",
+        "host_src_path": "../ApplicationManager"
+    },
+    {
+        "folder_name": "Authenticator",
+        "service_name": "authenticator",
+        "docker_file_name": "authenticator_docker_file",
+        "image_file_name": "authenticator_img",
+        "container_name": "authenticator_container",
+        "service_start_shell_file": "authenticator_start.sh",
+        "service_end_shell_file": "authenticator_end.sh",
+        "host_port": "8020",
+        "container_port": "8050",
+        "host_src_path": "../Authenticator"
+    },
+    {
+        "folder_name": "DeploymentManager",
+        "service_name": "deployment_manager",
+        "docker_file_name": "deployment_manager_docker_file",
+        "image_file_name": "deployment_manager_img",
+        "container_name": "deployment_manager_container",
+        "service_start_shell_file": "deployment_manager_start.sh",
+        "service_end_shell_file": "deployment_manager_end.sh",
+        "host_port": "8030",
+        "container_port": "8050",
+        "host_src_path": "../DeploymentManager"
+    },
+    {
+        "folder_name": "NodeManager",
+        "service_name": "node_manager",
+        "docker_file_name": "node_manager_docker_file",
+        "image_file_name": "node_manager_img",
+        "container_name": "node_manager_container",
+        "service_start_shell_file": "node_manager_start.sh",
+        "service_end_shell_file": "node_manager_end.sh",
+        "host_port": "8040",
+        "container_port": "8050",
+        "host_src_path": "../NodeManager"
+    },
+    {
+        "folder_name": "FaultToleranceAndMonitoring",
+        "service_name": "fault_manager",
+        "docker_file_name": "fault_manager_docker_file",
+        "image_file_name": "fault_manager_img",
+        "container_name": "fault_manager_container",
+        "service_start_shell_file": "fault_manager_start.sh",
+        "service_end_shell_file": "fault_manager_end.sh",
+        "host_port": "8070",
+        "container_port": "8050",
+        "host_src_path": "../FaultToleranceAndMonitoring"
+    },
+    {
+        "folder_name": "ServerlifecycleManager",
+        "service_name": "lifecycle_manager",
+        "docker_file_name": "lifecycle_manager_docker_file",
+        "image_file_name": "lifecycle_manager_img",
+        "container_name": "lifecycle_manager_container",
+        "service_start_shell_file": "lifecycle_manager_start.sh",
+        "service_end_shell_file": "lifecycle_manager_end.sh",
+        "host_port": "8080",
+        "container_port": "8050",
+        "host_src_path": "../ServerlifecycleManager"
+    },
+    {
+        "folder_name": "WorkflowManager",
+        "service_name": "workflow_manager",
+        "docker_file_name": "workflow_manager_docker_file",
+        "image_file_name": "workflow_manager_img",
+        "container_name": "workflow_manager_container",
+        "service_start_shell_file": "workflow_manager_start.sh",
+        "service_end_shell_file": "workflow_manager_end.sh",
+        "host_port": "8090",
+        "container_port": "8050",
+        "host_src_path": "../WorkflowManager"
+    },
+    {
+        "folder_name": "Scheduler",
+        "service_name": "scheduler",
+        "docker_file_name": "scheduler_docker_file",
+        "image_file_name": "scheduler_img",
+        "container_name": "scheduler_container",
+        "service_start_shell_file": "scheduler_start.sh",
+        "service_end_shell_file": "scheduler_end.sh",
+        "host_port": "8100",
+        "container_port": "8050",
+        "host_src_path": "../Scheduler"
+    },
+    {
+        "folder_name": "SensorManager",
+        "service_name": "sensor_manager",
+        "docker_file_name": "sensor_manager_docker_file",
+        "image_file_name": "sensor_manager_img",
+        "container_name": "sensor_manager_container",
+        "service_start_shell_file": "sensor_manager_start.sh",
+        "service_end_shell_file": "sensor_manager_end.sh",
+        "host_port": "8060",
+        "container_port": "8050",
+        "host_src_path": "../SensorManager"
+    },
+    {
+        "folder_name": "PlatformServices",
+        "service_name": "platform_services",
+        "docker_file_name": "platform_services_docker_file",
+        "image_file_name": "platform_services_img",
+        "container_name": "platform_services_container",
+        "service_start_shell_file": "platform_services_start.sh",
+        "service_end_shell_file": "platform_services_end.sh",
+        "host_port": "8110",
+        "container_port": "8050",
+        "host_src_path": "../PlatformServices"
+    }
+]

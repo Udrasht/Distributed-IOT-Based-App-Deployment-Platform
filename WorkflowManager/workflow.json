@@ -1,0 +1,32 @@
+{
+    "node_data": {
+        "params": {
+            "node_name": "<enter node name>",
+            "last_n": 3
+
+        },
+        "dependency":[],
+        "returned_attributes": ["temp","attr2"]
+    },
+
+    "trigger_email": {
+        "params": {
+            "receiver-email": "<enter receiver email>",
+            "email-body": "<email_body>"
+        },
+        "dependency":[],
+        "returned_attributes":["email"]
+    },
+
+    "sensor_data": {
+        "params": {
+            "node_name": "AQ",
+            "sensor_type": "<enter valid sensor>",
+            "last_n": 1
+        },
+        "dependency":["trigger_email:email"],
+        "returned_attributes": ["attr3","attr4"]
+    }
+    
+}
+

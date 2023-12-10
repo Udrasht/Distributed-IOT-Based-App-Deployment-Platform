@@ -1,0 +1,7 @@
+{
+  "host": "ias-dev.postgres.database.azure.com",
+  "port": "5432",
+  "uid": "iasgroup3",
+  "pwd": "IASdev@2022",
+  "db": "ias"
+}

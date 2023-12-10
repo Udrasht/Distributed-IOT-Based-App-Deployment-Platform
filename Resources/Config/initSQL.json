@@ -1,0 +1,9 @@
+{
+  "to_run": [
+    "appManagerInit.sql",
+    "authInit.sql",
+    "deployManagerInit.sql",
+    "nodeManagerInit.sql",
+    "sensorManagerInit.sql"
+  ]
+}

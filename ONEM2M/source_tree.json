@@ -1,0 +1,36 @@
+{
+    "application": "IAS-IOT-AVISHKAR-23",
+    "nodes": [
+        {
+            "nodename": "h105",
+            "descriptor": [
+                "timestamp",
+                "occupancy-state",
+                "temperature",
+                "humidity"
+            ],
+            "n_fields": 4
+        },
+        {
+            "nodename": "h205",
+            "descriptor": [
+                "timestamp",
+                "occupancy-state",
+                "temperature",
+                "humidity"
+            ],
+            "n_fields": 4
+        },
+        {
+            "nodename": "obh",
+            "descriptor": [
+                "timestamp",
+                "occupancy-state",
+                "temperature",
+                "humidity",
+                "tds"
+            ],
+            "n_fields": 5
+        }
+    ]
+}

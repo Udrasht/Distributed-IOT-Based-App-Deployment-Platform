@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="/static/css/dataTables.bootstrap5.min.css" />
+    <link rel="stylesheet" href="/static/css/style.css" />
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <title>ROOM MONITORING SYSTEM</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+
+<body>
+    <!-- top navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar"
+                aria-controls="offcanvasExample">
+                <span class="navbar-toggler-icon" data-bs-target="#sidebar"></span>
+            </button>
+            <a class="navbar-brand me-auto ms-lg-0 ms-3 text-uppercase fw-bold">ROOM MONITORING SYSTEM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topNavBar"
+                aria-controls="topNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="topNavBar">
+                <form class="d-flex ms-auto my-3 my-lg-0">
+                    <div class="input-group">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-primary" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- top navigation bar -->
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start sidebar-nav bg-dark" tabindex="-1" id="sidebar">
+        <div class="offcanvas-body p-0">
+            <nav class="navbar-dark">
+                <ul class="navbar-nav">
+                    <li>
+                        <div class="text-muted small fw-bold text-uppercase px-3">
+                            CORE
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link px-3 active">
+                            <span class="me-2"><i class="bi bi-speedometer2"></i></span>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="my-4">
+                        <hr class="dropdown-divider bg-light" />
+                    </li>
+                    <li>
+                        <div class="text-muted small fw-bold text-uppercase px-3 mb-3">
+                            Interface
+                        </div>
+                    </li>
+                    <li>
+                        <a class="nav-link px-3 sidebar-link" data-bs-toggle="collapse" href="#layouts">
+                            <span class="me-2"><i class="bi bi-layout-split"></i></span>
+                            <span>Layouts</span>
+                            <span class="ms-auto">
+                                <span class="right-icon">
+                                    <i class="bi bi-chevron-down"></i>
+                                </span>
+                            </span>
+                        </a>
+                        <div class="collapse" id="layouts">
+                            <ul class="navbar-nav ps-3">
+                                <li>
+                                    <a href="#" class="nav-link px-3">
+                                        <span class="me-2"><i class="bi bi-speedometer2"></i></span>
+                                        <span>Dashboard</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link px-3">
+                            <span class="me-2"><i class="bi bi-book-fill"></i></span>
+                            <span>Pages</span>
+                        </a>
+                    </li>
+                    <li class="my-4">
+                        <hr class="dropdown-divider bg-light" />
+                    </li>
+                    <li>
+                        <div class="text-muted small fw-bold text-uppercase px-3 mb-3">
+                            Addons
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link px-3">
+                            <span class="me-2"><i class="bi bi-graph-up"></i></span>
+                            <span>Charts</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link px-3">
+                            <span class="me-2"><i class="bi bi-table"></i></span>
+                            <span>Tables</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- offcanvas -->
+    <main class="mt-5 pt-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4>LIVE DATA GRAPHS </h4>
+                </div>
+            </div>
+
+            <div>
+                <div class="card-body">
+                    <h3 class="card-title"> Location 1 Graph 1 - Air Quality</h3>
+                    <div id="sr_aq_graph_1">
+                        <script>
+                            var time = new Date();
+                            var se_loc1_val = 0;
+                            var se_loc2_val = 0;
+                            var se_loc3_val = 0;
+
+                            var sr_aq_data_1 = [{
+                                x: [time],
+                                y: [se_loc1_val],
+                                mode: 'lines',
+                                line: { color: 'blue' },
+                                name: 'Temperature'
+                            }, {
+                                x: [time],
+                                y: [se_loc2_val],
+                                mode: 'lines',
+                                line: { color: 'green' },
+                                name: 'CO2'
+                            }, {
+                                x: [time],
+                                y: [se_loc3_val],
+                                mode: 'lines',
+                                line: { color: 'red' },
+                                name: 'Relative Humidity'
+                            }]
+                            Plotly.plot('sr_aq_graph_1', sr_aq_data_1);
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card-body">
+                    <h3 class="card-title">Location 1 Graph 2 - Solar Energy</h3>
+                    <div id="sr_oc_graph_1">
+                        <script>
+                            var time = new Date();
+                            var se_loc1_val = 0;
+                            var se_loc2_val = 0;
+                            var se_loc3_val = 0;
+
+                            var sr_oc_data_1 = [{
+                                x: [time],
+                                y: [se_loc1_val],
+                                mode: 'lines',
+                                line: { color: 'blue' },
+                                name: 'Temperature'
+                            }]
+
+                            Plotly.plot('sr_oc_graph_1', sr_oc_data_1);
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card-body">
+                    <h3 class="card-title">Location 1 Graph 3 - Room Energy</h3>
+                    <div id="sr_ac_graph">
+                        <script>
+                            var time = new Date();
+                            var sr_ac_val = 0;
+
+                            var sr_ac_data = [{
+                                x: [time],
+                                y: [sr_ac_val],
+                                mode: 'lines',
+                                line: { color: 'blue' },
+                                name: 'Gas Power'
+                            }]
+
+                            Plotly.plot('sr_ac_graph', sr_ac_data);
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card-body">
+                    <h3 class="card-title"> Location 2 Graph 1 - Air Quality</h3>
+                    <div id="sr_aq_graph_2">
+                        <script>
+                            var time = new Date();
+                            var se_loc1_val = 0;
+                            var se_loc2_val = 0;
+                            var se_loc3_val = 0;
+
+                            var sr_aq_data_2 = [{
+                                x: [time],
+                                y: [se_loc1_val],
+                                mode: 'lines',
+                                line: { color: 'blue' },
+                                name: 'Temperature'
+                            }, {
+                                x: [time],
+                                y: [se_loc2_val],
+                                mode: 'lines',
+                                line: { color: 'green' },
+                                name: 'CO2'
+                            }, {
+                                x: [time],
+                                y: [se_loc3_val],
+                                mode: 'lines',
+                                line: { color: 'red' },
+                                name: 'Relative Humidity'
+                            }]
+                            Plotly.plot('sr_aq_graph_2', sr_aq_data_2);
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card-body">
+                    <h3 class="card-title">Location 2 Graph 2 - Solar Energy</h3>
+                    <div id="sr_oc_graph_2">
+                        <script>
+                            var time = new Date();
+                            var se_loc1_val = 0;
+                            var se_loc2_val = 0;
+                            var se_loc3_val = 0;
+
+                            var sr_oc_data_2 = [{
+                                x: [time],
+                                y: [se_loc1_val],
+                                mode: 'lines',
+                                line: { color: 'blue' },
+                                name: 'Temperature'
+                            }]
+
+                            Plotly.plot('sr_oc_graph_2', sr_oc_data_2);
+                        </script>
+                    </div>
+                </div>
+            </div>
+
+
+
+    </main>
+    <script src="static/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.2/dist/chart.min.js"></script>
+    <script src="static/js/jquery-3.5.1.js"></script>
+    <script src="staic/js/jquery.dataTables.min.js"></script>
+    <script src="static/js/dataTables.bootstrap5.min.js"></script>
+    <script src="static/js/script.js"></script>
+    <script>
+        //$("#data").text("{{ i }}")
+
+        intervalId = setInterval(function () {
+            var data = $.ajax({
+                url: "/api/data",
+                async: false,
+                dataType: 'json'
+            }).responseJSON;
+
+            //aq_data = data['AQ']
+            console.log(data)
+            sr_aq_data_loc1 = data['SR-AQ'][0]
+            sr_oc_data_loc1 = data['SR-OC'][0]
+            sr_ac_data_loc1 = data['SR-AC'][0]
+            sr_aq_data_loc2 = data['SR-AQ'][1]
+            sr_oc_data_loc2 = data['SR-OC'][1]
+
+
+            //aq_aqi = aq_data['AQI']
+            //aq_pm10 = aq_data['PM10']
+            //aq_aql = aq_data['AQL']
+
+            sr_aq_temp_loc1 = sr_aq_data_loc1['Temperature']
+            sr_aq_co2_loc1 = sr_aq_data_loc1['CO2']
+            sr_aq_rel_hum_loc1 = sr_aq_data_loc1['Relative Humidity']
+
+            sr_oc_temp_loc1 = sr_oc_data_loc1['Temperature']
+
+            sr_ac_gas_loc1 = sr_ac_data_loc1['Gas Total Power']
+
+            sr_aq_temp_loc2 = sr_aq_data_loc2['Temperature']
+            sr_aq_co2_loc2 = sr_aq_data_loc2['CO2']
+            sr_aq_rel_hum_loc2 = sr_aq_data_loc2['Relative Humidity']
+
+            sr_oc_temp_loc2 = sr_oc_data_loc2['Temperature']
+
+            var time = new Date();
+
+            var sr_aq_update_loc1 = {
+                x: [[time], [time], [time]],
+                y: [[sr_aq_temp_loc1], [sr_aq_co2_loc1], [sr_aq_rel_hum_loc1]]
+            }
+
+            var sr_oc_update_loc1 = {
+                x: [[time]],
+                y: [[sr_oc_temp_loc1]]
+            }
+
+            var sr_ac_update_loc1 = {
+                x: [[time]],
+                y: [[sr_ac_gas_loc1]]
+            }
+
+            var sr_aq_update_loc2 = {
+                x: [[time], [time], [time]],
+                y: [[sr_aq_temp_loc2], [sr_aq_co2_loc2], [sr_aq_rel_hum_loc2]]
+            }
+
+            var sr_oc_update_loc2 = {
+                x: [[time]],
+                y: [[sr_oc_temp_loc2]]
+            }
+
+            var olderTime = time.setMinutes(time.getMinutes() - 1);
+            var futureTime = time.setMinutes(time.getMinutes() + 1);
+            var minuteView = {
+                xaxis: {
+                    type: 'date',
+                    range: [olderTime, futureTime]
+                }
+            };
+
+            Plotly.relayout('sr_aq_graph_1', minuteView);
+            Plotly.extendTraces('sr_aq_graph_1', sr_aq_update_loc1, [0, 1, 2])
+
+            Plotly.relayout('sr_oc_graph_1', minuteView);
+            Plotly.extendTraces('sr_oc_graph_1', sr_oc_update_loc1, [0])
+
+            Plotly.relayout('sr_ac_graph', minuteView);
+            Plotly.extendTraces('sr_ac_graph', sr_ac_update_loc1, [0])
+
+            Plotly.relayout('sr_aq_graph_2', minuteView);
+            Plotly.extendTraces('sr_aq_graph_2', sr_aq_update_loc2, [0, 1, 2])
+
+            Plotly.relayout('sr_oc_graph_2', minuteView);
+            Plotly.extendTraces('sr_oc_graph_2', sr_oc_update_loc2, [0])
+
+        }, 5000);
+    </script>
+</body>
+
+</html>

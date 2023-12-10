@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Page</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        /* Add some CSS styles here to make the page look nice */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: inline-block;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
+        select {
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        button {
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:disabled {
+            background-color: #ccc;
+            color: #666;
+            cursor: not-allowed;
+        }
+
+        #data-container {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to my page</h1>
+    <label for="dropdown">Select an option:</label>
+    <select id="dropdown">
+        <option value="">Loading options...</option>
+    </select>
+    <button id="start-btn">Start</button>
+    <button id="stop-btn" disabled>Stop</button>
+    <div id="data-container"></div>
+
+    <script>
+        $(document).ready(function () {
+            // Fetch options for dropdown from API on page load
+            $.ajax({
+                url: "/api/options",
+                success: function (data) {
+                    // Clear the loading message
+                    $("#dropdown").empty();
+
+                    // Add each option to the dropdown
+                    $.each(data, function (i, option) {
+                        $("#dropdown").append("<option value='" + 'AQ-' + option.value + "'>" + option.label + "</option>");
+                    });
+                }
+            });
+
+            // Variables to keep track of the interval and selected option
+            var intervalId = null;
+            var selectedOption = "";
+
+            // Start button click event handler
+            $("#start-btn").click(function () {
+                // Get the selected option from the dropdown
+                selectedOption = $("#dropdown").val();
+
+                // Disable the start button and enable the stop button
+                $("#start-btn").prop("disabled", true);
+                $("#stop-btn").prop("disabled", false);
+
+                // Call the API to fetch data every 10 seconds
+                intervalId = setInterval(function () {
+                    $.ajax({
+                        url: "/api/data",
+                        success: function (data) {
+                            // Update the content of the data container with the new data
+                            $("#data-container").html(JSON.stringify(data));
+                        }
+                    });
+                }, 10000);
+            });
+
+            // Stop button click event handler
+            $("#stop-btn").click(function () {
+                // Clear the interval and re-enable the start button
+                clearInterval(intervalId);
+                $("#start-btn").prop("disabled", false);
+                $("#stop-btn").prop("disabled", true);
+            });
+        });
+    </script>
+</body>
+
+</html>
